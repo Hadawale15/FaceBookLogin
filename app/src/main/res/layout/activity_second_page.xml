@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage">
+
+<TextView
+    android:id="@+id/t1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome"
+    android:textSize="50sp"
+    android:textColor="#5E2CD6"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/t1"
+        android:id="@+id/i11"
+        android:src="@drawable/demoimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Name of applicant"
+        android:textSize="25sp"
+        android:layout_below="@+id/i11"
+        android:id="@+id/t2"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:text="Log Out"
+       android:layout_marginBottom="50dp"
+        android:id="@+id/logout_id"
+        />
+
+</RelativeLayout>
